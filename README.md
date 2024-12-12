@@ -30,3 +30,6 @@ for each image in transition to the next .. the option to automaticly make a vid
 is not working until now but you can use other free scripts to add "the frames" to a movie. btw. there are
 some commandline options for the makevid.py script like automatic using lanczos upscaling you can use on low end
 machines to get good results.
+
+The Idea was born in the discussion group of the forge webui https://github.com/lllyasviel/stable-diffusion-webui-forge/discussions/1871
+Thanks to all people helping to make this finaly work :-)
