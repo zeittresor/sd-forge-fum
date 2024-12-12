@@ -10,4 +10,23 @@ The code is mostly the original code implemented in the forge webui by lllyasvie
 many contributors, the additional options for the randomised or linear parameter moves are
 what this project is all about written by me so far..
 
-Make sure to install the script to your forge webui using the link
+Make sure to install the script to your forge webui using the link https://github.com/zeittresor/sd-forge-fum.git
+(It seems to be useful to disable the build-in extension "FreeU" in Forge WebUI to have the settings not a second time).
+
+The Parameters in FUM (FreeU-Move) are mostly the same like in the original implementation but with the little
+difference that you now have some more options you can enable using checkboxes.
+
+How to use:
+Make sure u generate a single Image first, if you like the generated image, make sure you do NOT USE any wildcard
+in your prompt field or have dynamic prompting enabled - the reason for this is that we do not want anything what
+changes instead of the S1 / S2 values in the generation procedure.
+Make sure you set the seed of the image now to the fixed value of the Image you are happy with.
+Enable the checkbox in the FreeU-Move (FUM) extension for the option you want to try.
+Click with the right mousekey onto the "Generate" Button and select in the context menu "Generate forever".
+Now let the process generate some images.. after you have generated for ex. 30 images stop the procedure.
+Go to your output folder - you shoud see now all the images mostly looking same but with slightly changes.
+Put the script you can find in the extras folder into it and use it to generate the smooth transition images
+for each image in transition to the next .. the option to automaticly make a video from all the generated images
+is not working until now but you can use other free scripts to add "the frames" to a movie. btw. there are
+some commandline options for the makevid.py script like automatic using lanczos upscaling you can use on low end
+machines to get good results.
