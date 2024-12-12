@@ -41,3 +41,5 @@ btw. you do not need a "NASA Computer" or a modern graphic card to produce a sin
 .. an additional idea it to use it with the layer diffusion extension in combination to to make the sometimes "unstable" background "invisible". Using
 that methode it "should be" possible to resurrect a person of a photo to a somehow realistic 3D looking person with a additional background you can add to the
 "now transparent" alpha channel - but thats only a idea for a future release - i have not tested this so far 😉
+
+Source: https://github.com/zeittresor/sd-forge-fum
