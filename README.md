@@ -16,6 +16,8 @@ Make sure to install the script to your forge webui using the link https://githu
 The Parameters in FUM (FreeU-Move) are mostly the same like in the original implementation but with the little
 difference that you now have some more options you can enable using checkboxes.
 
+![fum0](https://github.com/user-attachments/assets/646f1d48-f1b2-486c-b2e1-af356d535950)
+
 How to use:
 Make sure u generate a single Image first, if you like the generated image, make sure you do NOT USE any wildcard
 in your prompt field or have dynamic prompting enabled - the reason for this is that we do not want anything what
