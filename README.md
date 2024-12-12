@@ -32,4 +32,6 @@ some commandline options for the makevid.py script like automatic using lanczos 
 machines to get good results.
 
 The Idea was born in the discussion group of the forge webui https://github.com/lllyasviel/stable-diffusion-webui-forge/discussions/1871
-Thanks to all people helping to make this finaly work :-)
+Thanks to all people helping to make this finaly work 😍
+
+btw. you do not need a "NASA Computer" or a modern graphic card to produce a single image animation in top resolution with it just some more time 😉
