@@ -26,7 +26,7 @@ Make sure you set the seed of the image now to the fixed value of the Image you 
 Enable the checkbox in the FreeU-Move (FUM) extension for the option you want to try.
 Click with the right mousekey onto the "Generate" Button and select in the context menu "Generate forever".
 Now let the process generate some images.. after you have generated for ex. 30 images stop the procedure.
-Go to your output folder - you shoud see now all the images mostly looking same but with slightly changes.
+Go to your output folder - you should see now all the images - mostly looking same, but with slightly changes.
 Put the script you can find in the extras folder into it and use it to generate the smooth transition images
 for each image in transition to the next .. the option to automaticly make a video from all the generated images
 is not working until now but you can use other free scripts to add "the frames" to a movie. btw. there are
