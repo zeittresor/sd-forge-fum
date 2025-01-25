@@ -45,7 +45,7 @@ that methode it "should be" possible to resurrect a person of a photo to a someh
 Workflow for Animation / Video generating:
 Make sure you did the following:
 
-- You have a Prompt without any wildcard like __names__ or {value1|value2|..} in the text
+- You have a Prompt without any wildcard like "__names__" or {value1|value2|..} in the text
 - You have set the seed to a fixed value
 - You have disabled the dynamic prompt extension if you normaly use it (checked by default) just uncheck this now
 - Disable the FreeU extension.
