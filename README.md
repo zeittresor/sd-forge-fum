@@ -56,5 +56,9 @@ Make sure you did the following:
 - Click with the right mousebutton on the generate button and select "Generate forever".
 
 * You can use my script "timedviewer" (https://github.com/zeittresor/timedviewer) to monitor the video building progress in realtime, i have added a preset for FUM there.
+
+* Tip #1: While the generation process is active you can still make little changes to the prompt field that modifies the image sometimes for example "view from left front." changed to "view from left side."
+* Tip #2: To get a more stable animation without alot flickering its helping to add something like "..in front of a black background, on top of a black floor".
+  
   
 Source: https://github.com/zeittresor/sd-forge-fum
