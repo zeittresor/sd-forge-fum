@@ -79,7 +79,7 @@ There is a different way to use this (If you use the sd-dynamic-prompt extension
 
 -> Go to the prompt section in hires.fix and add a wildcard about minor changes after the last line like changes for rotation, view angle, emotes, what ever.. and select a low upscaling like 1:1 to 1:1.25 using "lanczos" as algorithm.
 
--> After a night in the "normal" generation as a batch (without the "generate forever" feature) you might have some very similar images but with slighly changes (make sure the FUM extension is also enabled ofcause!) with one or both sliders enabled.
+-> After a night in the "normal" generation as a batch (without the "generate forever" feature) you might have some very similar images but with slighly changes (make sure the FUM extension is also enabled ofcause!) with "Random UNet Move", "Simple UNet S1 Move" or both enabled (btw. if you enable "Simple UNet S1 Move" it might be produce weak looking frames after approx 300 generated frames - keep that in mind if you only want little changes and more "key" frames at all keep this checkbox disabled).
 
 -> Go now to the extras folder and start the flipbook_player.py it will start a GUI showing you a button to select the "output folder" (just select it), after a click of "View flipbook" you will see a automaticly created animation of all current generated frames (somehow like in my tool timedviewer but in this case not using the timestamp as a startpoint but the filename) - the reason it is that we want to create additional intermedidate images between each "frame" and this frames get a different timestamp because of this the flipbook_player.py have to watch for filenames and NOT for the timestamp.
 
