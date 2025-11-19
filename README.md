@@ -76,13 +76,17 @@ There is a different way to use this (If you use the sd-dynamic-prompt extension
 
 -> After a night in the "normal" generation as a batch (without the "generate forever" feature) you might have some very similar images but with slighly changes (make sure the FUM extension is also enabled ofcause!) with one or both sliders enabled.
 
--> Got now to the extras folder and start the flipbook_player.py it will start a GUI showing you a button to select the "output folder" (just select it), after a click of "View flipbook" you will see a automaticly created animation of all current generated frames (somehow like in my tool timedviewer but in this case not using the timestamp as a startpoint but the filename - the reason it is that we want to create additional intermedidate images between each "frame" and this frames get a different timestamp because of this the flipbook_player.py have to watch for filenames and NOT for the timestamp.
+-> Got now to the extras folder and start the flipbook_player.py it will start a GUI showing you a button to select the "output folder" (just select it), after a click of "View flipbook" you will see a automaticly created animation of all current generated frames (somehow like in my tool timedviewer but in this case not using the timestamp as a startpoint but the filename) - the reason it is that we want to create additional intermedidate images between each "frame" and this frames get a different timestamp because of this the flipbook_player.py have to watch for filenames and NOT for the timestamp.
 
 if you are fine with the current frames copy them to a seperated folder and start my script (also in extras folder) copied to the same folder of your current "thumb cinema" / "flipbook" :-) and start it using "python makevid.py .", 
 now 3 extra images will be created between any current frame. if it ist done (it takes some min.) you can start the flipbook_player.py script again (but change the value to 5 (ms). 
 
 <img width="370" height="120" alt="flipbook_player" src="https://github.com/user-attachments/assets/bb472809-066d-4004-8701-1580501419cf" />
 
-(Normaly the value in the player is 40ms ~ 25 fps but using 5ms you get a smooth transition from one frame to another). The player is playing the video frames forwards and backwards in a loop without a visible break in fullscreen. To exit just click in the view Window using your mouse and click "ESC" (or x).
+(Normaly the value in the player is 40ms ~ 25 fps but using 5ms you get a smooth transition from one frame to another). 
+
+The player is playing the video frames forwards and backwards in a loop without a visible break in fullscreen. 
+
+To exit just click in the view Window using your mouse and click "ESC" (or x).
 
 The code descriptions are in german language but how ever you might understand the gui text ;-)
