@@ -1,6 +1,9 @@
 # sd-forge-fum
 Replacement for the BuildIn FreeU Implementation in Forge with additional options for animations
 
+Extension for https://github.com/lllyasviel/stable-diffusion-webui-forge
+
+
 ![fum1](https://github.com/user-attachments/assets/a9961ff0-55a2-405b-bc4e-5ea151bf5292)
 
 This is a try out project to check how to animate a picture using a single untouched seed. 
