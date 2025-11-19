@@ -22,10 +22,14 @@ How to use:
 Make sure u generate a single Image first, if you like the generated image, make sure you do NOT USE any wildcard
 in your prompt field or have dynamic prompting enabled - the reason for this is that we do not want anything what
 changes instead of the S1 / S2 values in the generation procedure.
+
 Make sure you set the seed of the image now to the fixed value of the Image you are happy with.
 Enable the checkbox in the FreeU-Move (FUM) extension for the option you want to try.
+
 Click with the right mousekey onto the "Generate" Button and select in the context menu "Generate forever".
+
 Now let the process generate some images.. after you have generated for ex. 30 images stop the procedure.
+
 Go to your output folder - you should see now all the images - mostly looking same, but with slightly changes.
 Put the script you can find in the extras folder into it and use it to generate the smooth transition images
 for each image in transition to the next .. the option to automaticly make a video from all the generated images
@@ -65,7 +69,20 @@ Source: https://github.com/zeittresor/sd-forge-fum
 
 Some notes:
 There is a different way to use this (If you use the sd-dynamic-prompt extension) - select under the advanced tab "same seed" option and make sure you enable "Hires.Fix" in your settings (including the option for a additional prompt for hires.fix).
+
 -> Make sure the seed is fixed, you have enabled sd-dynamic-prompt extension with the options : advanced / fixed seed and hires fix with additional prompt. now go to you prompt and copy it to the hires.fix prompt field (the same for the negative prompt).
+
 -> Go to the prompt section in hires.fix and add a wildcard about minor changes after the last line like changes for rotation, view angle, emotes, what ever.. and select a low upscaling like 1:1 to 1:1.25 using "lanczos" as algorithm.
--> After a night in the "normal" generation (without the "generate forever" feature) you might have some very similar images but with slighly changes (make sure the FUM extension is also enabled ofcause!) with one or both sliders enabled.
--> Got now to the extras folder and start the flipbook_player.py it will start a GUI showing you a button to select the "output folder" (just select it), after a click of "View flipbook" you will see a automaticly created animation of all current generated frames (somehow like in my tool timedviewer but in this case not using the timestamp as a startpoint but the filename - the reason for this is the following: if you are fine with the current frames copy them to a seperated folder and start my script (also in extras folder) copied to the same folder of your current "thumb cinema" / "flipbook" :-) and start it using "python makevid.py .", now 3 extra images will be created between any current frame. if it ist done (it takes some min.) you can start the flipbook_player.py script again (but change the value to 5 (ms). (normaly the value in the player is 40ms ~ 25 fps but using 5ms you get a smooth transition from one frame to another). The player is playing the video frames forwards and backwards in a loop without a visible break in fullscreen. To exit just click in the view Window using your mouse and click "ESC" (or x).
+
+-> After a night in the "normal" generation as a batch (without the "generate forever" feature) you might have some very similar images but with slighly changes (make sure the FUM extension is also enabled ofcause!) with one or both sliders enabled.
+
+-> Got now to the extras folder and start the flipbook_player.py it will start a GUI showing you a button to select the "output folder" (just select it), after a click of "View flipbook" you will see a automaticly created animation of all current generated frames (somehow like in my tool timedviewer but in this case not using the timestamp as a startpoint but the filename - the reason for this is the following: 
+
+if you are fine with the current frames copy them to a seperated folder and start my script (also in extras folder) copied to the same folder of your current "thumb cinema" / "flipbook" :-) and start it using "python makevid.py .", 
+now 3 extra images will be created between any current frame. if it ist done (it takes some min.) you can start the flipbook_player.py script again (but change the value to 5 (ms). 
+
+<img width="370" height="120" alt="flipbook_player" src="https://github.com/user-attachments/assets/bb472809-066d-4004-8701-1580501419cf" />
+
+(Normaly the value in the player is 40ms ~ 25 fps but using 5ms you get a smooth transition from one frame to another). The player is playing the video frames forwards and backwards in a loop without a visible break in fullscreen. To exit just click in the view Window using your mouse and click "ESC" (or x).
+
+The code descriptions are in german language but how ever you might understand the gui text ;-)
