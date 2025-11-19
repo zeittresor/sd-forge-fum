@@ -78,8 +78,11 @@ There is a different way to use this (If you use the sd-dynamic-prompt extension
 
 -> Got now to the extras folder and start the flipbook_player.py it will start a GUI showing you a button to select the "output folder" (just select it), after a click of "View flipbook" you will see a automaticly created animation of all current generated frames (somehow like in my tool timedviewer but in this case not using the timestamp as a startpoint but the filename) - the reason it is that we want to create additional intermedidate images between each "frame" and this frames get a different timestamp because of this the flipbook_player.py have to watch for filenames and NOT for the timestamp.
 
-if you are fine with the current frames copy them to a seperated folder and start my script (also in extras folder) copied to the same folder of your current "thumb cinema" / "flipbook" :-) and start it using "python makevid.py .", 
-now 3 extra images will be created between any current frame. if it ist done (it takes some min.) you can start the flipbook_player.py script again (but change the value to 5 (ms). 
+if you are fine with the current frames copy them to a seperated folder and start the script makevid.py (also in extras folder) copied to the same folder of your current "thumb cinema" / "flipbook" :-) and start it using "python makevid.py .". 
+
+Now 3 extra images will be created between any current frame.
+
+If the procedure is finaly done (it takes some min.) you can start the flipbook_player.py script again (but change the value to 5 (ms). 
 
 <img width="370" height="120" alt="flipbook_player" src="https://github.com/user-attachments/assets/bb472809-066d-4004-8701-1580501419cf" />
 
