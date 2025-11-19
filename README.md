@@ -70,7 +70,7 @@ Source: https://github.com/zeittresor/sd-forge-fum
 
 Some notes (alternative way to use this):
 
-There is a different way to use this (If you use the sd-dynamic-prompt extension) - select under the advanced tab "same seed" option and make sure you enable "Hires.Fix" in your settings (including the option for a additional prompt for hires.fix).
+There is a different way to use this (If you use the sd-dynamic-prompt extension) - select under the advanced tab "same seed" option and make sure you enable "Hires.Fix" in your settings (including the option for a additional prompt for hires.fix in your forge/a1111 settings - if you cant find it just enter "hires" in the search field).
 
 -> Make sure the seed is fixed, you have enabled sd-dynamic-prompt extension with the options : advanced / fixed seed and hires fix with additional prompt. now go to you prompt and copy it to the hires.fix prompt field (the same for the negative prompt).
 
