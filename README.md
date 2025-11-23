@@ -100,3 +100,5 @@ To exit just click in the view Window using your mouse and click "ESC" (or x).
 The code descriptions are in german language but how ever you might understand the gui text ;-)
 
 btw. if you let the value in the player unchanged to be at 40 ms (~52sec for the 300 generated frames in total but after using the makevid.py script = 1200 frames in default settings it is ~52 sec in one play direction + the same backwards). You should use it only with a target prompt like fireworks, lightshow, light effect show or something like that where a smooth transition effect from one "key" frame to another is irrelevant. For a slowly rotating christmas tree for example it might be better to add more transition frames using the commandline option "--num_intermediates [Number_of_additional_frames]" for the makevid.py script and speed up the framerate in the player (if you dont want to watch a slow motion video).
+
+Alternative: Use my script https://github.com/zeittresor/images_to_mp4 to combine the final images to a .MP4 Movie from it (currently the gui is in german language only, but how ever there are not too many options) :-)
