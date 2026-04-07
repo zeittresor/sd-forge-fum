@@ -23,7 +23,7 @@ difference that you now have some more options you can enable using checkboxes.
 
 Update (massive overhaul / 08-april-2026):
 
-<img width="1011" height="709" alt="grafik" src="https://github.com/user-attachments/assets/eafe7f2a-9064-4ee3-83e4-9867c2a04f56" />
+<img width="1247" height="759" alt="grafik" src="https://github.com/user-attachments/assets/1224ab2d-00a0-4e13-9969-3d7f918d8048" />
 
 How to use:
 Make sure u generate a single Image first, if you like the generated image, make sure you do NOT USE any wildcard
