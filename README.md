@@ -21,6 +21,10 @@ difference that you now have some more options you can enable using checkboxes.
 
 ![fum0](https://github.com/user-attachments/assets/646f1d48-f1b2-486c-b2e1-af356d535950)
 
+Update (massive overhaul / 08-april-2026):
+
+<img width="1011" height="709" alt="grafik" src="https://github.com/user-attachments/assets/eafe7f2a-9064-4ee3-83e4-9867c2a04f56" />
+
 How to use:
 Make sure u generate a single Image first, if you like the generated image, make sure you do NOT USE any wildcard
 in your prompt field or have dynamic prompting enabled - the reason for this is that we do not want anything what
